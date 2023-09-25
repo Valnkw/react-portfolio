@@ -1,7 +1,11 @@
 import React from "react";
 import Color from "../assets/color.jpg";
 import Sand from "../assets/sand.jpg";
-
+import Cart from "../assets/Cart.jpg";
+import Site from "../assets/MyPage.jpg";
+import Clock from "../assets/clock.jpg";
+import City from "../assets/CitySearch.jpg";
+import Vtest from "../assets/Vtest.jpg";
 const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
@@ -16,7 +20,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${Sand})` }}
+            style={{ backgroundImage: `url(${City})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover */}
@@ -39,13 +43,13 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Color})` }}
+            style={{ backgroundImage: `url(${Vtest})` }}
             className="shadow-lg shadow-[#040c1676] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Varible tester
+                Varible Tester
               </span>
               <div className="pt-8 text-center">
                 <a href="https://github.com/Valnkw">
@@ -63,7 +67,7 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${Sand})` }}
+            style={{ backgroundImage: `url(${Clock})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover */}
@@ -86,7 +90,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${Color})` }}
+            style={{ backgroundImage: `url(${Site})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover */}
@@ -110,7 +114,7 @@ const Work = () => {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${Sand})` }}
+            style={{ backgroundImage: `url(${Cart})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover */}

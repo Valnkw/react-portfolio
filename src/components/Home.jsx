@@ -12,7 +12,7 @@ const Home = () => {
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#fff]">Nkowa</h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I’m currently a Junior at Mankato state university specializing in
+          I’m currently a Senior at Mankato state university specializing in
           Computer Science and Information Technology. Currently, I’m focused on
           learning React, JS and more front-end development tools.
         </p>

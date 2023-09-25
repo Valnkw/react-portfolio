@@ -15,7 +15,7 @@ const Navbar = () => {
         <img src={Logo} alt="Logo" style={{ width: "50px" }} />
       </div>
 
-      {/* menu */}
+      {/* Menu */}
       <ul className="hidden md:flex">
         <li>
           <Link to="home" smooth={true} duration={500}>
@@ -49,7 +49,7 @@ const Navbar = () => {
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile */}
       <ul
         className={
           !nav
@@ -88,7 +88,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Social icons */}
+      {/* Socials */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
@@ -118,7 +118,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/1C4W_hzM7ztlo0N6JjLX891EkG9VnhpV5/view?usp=sharing" /* edit here link for canva link */
+              href="https://drive.google.com/file/d/1C4W_hzM7ztlo0N6JjLX891EkG9VnhpV5/view?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

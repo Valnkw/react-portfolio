@@ -12,7 +12,6 @@ const Work = () => {
           </p>
           <p className="py-6"> Check out some of my recent work</p>
         </div>
-
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
@@ -20,7 +19,7 @@ const Work = () => {
             style={{ backgroundImage: `url(${Sand})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover  */}
+            {/* Hover */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 TypeAhead Search
@@ -101,7 +100,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Valnkw/JSprojects/tree/main/Clock">
+                <a href="https://github.com/Valnkw/react-portfolio">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
